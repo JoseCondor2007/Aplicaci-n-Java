@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
 public class DatabaseConnection {
 
     // Cambia esta constante a "local" o "remoto" según lo necesites
-    private static final String MODO_CONEXION = "remoto";
+    private static final String MODO_CONEXION = "local";
 
     // Configuración para conexión local
     private static final String LOCAL_URL = "jdbc:mysql://127.0.0.1:3306/dbVulcanizadora";
